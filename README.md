@@ -10,4 +10,4 @@ You can include the information on the way the rate of customer arrivals changes
 
 You can also use the function that is indicated with a red solid line in this figure.  When this function is used the rate of arrivals peaks in the middle of the busy hours and then decays and builds during the slow times.  Furthermore, the rate of arrivals changes continuously with time.
 
-__Your task in this exercise is to modify the queuing tool code in `main.py` so that the the function shown as a red line above is used to determine the rate at each given time.__  Notice that the time that is passed as an argument to the `rate` function is in minutes and not hours as I have used in the axes of the figure above. 
+__Your task in this exercise is to modify the queuing tool code in `main.py` so that the the function shown as a red line above is used to determine the rate at each given time.__  Notice that the time that is passed as an argument to the `rate` function is in minutes and not hours as I have used in the axes of the figure above. Notice furthermore that the blue dashed line indicates that the first maximum in the function is at 9:30 in the morning.
