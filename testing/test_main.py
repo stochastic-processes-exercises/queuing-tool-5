@@ -16,5 +16,5 @@ class UnitTests( unittest.TestCase ):
       xv, yv = [], [] 
       for i in range(1200) :
           xv.append((i,))
-          yv.append( 10*np.sin( 2*np.pi * (i-30) / 180 ) + 20 ) 
+          yv.append( 10*np.cos( 2*np.pi * (i-30) / 180 ) + 20 ) 
       assert( check_func( "rate", xv, yv ) )
