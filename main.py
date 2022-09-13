@@ -4,7 +4,7 @@ import numpy as np
 from mm1 import *
 
 def rate(t) :
-    return 10*np.cos( (t - 30 ) * (2*np.pi / 180 ) ) + 20 
+    return (1/6)*np.cos( (t - 30 ) * (2*np.pi / 180 ) ) + 1/3 
 
 def arr_f(t):
     return qt.poisson_random_measure(t, rate, 0.25 )
